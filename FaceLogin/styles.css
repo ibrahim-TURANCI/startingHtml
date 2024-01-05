@@ -2,7 +2,7 @@
 * {
     border: 1px solid black;
     box-sizing: border-box;
-  }
+}
 */
 
 html, body {
@@ -25,25 +25,24 @@ html, body {
 }
 .logo+text{
     display: block;
-   
+    max-width: 580px;
+    min-width: 400px;
+
 
 }
 .FaceLogo{
     display: flex;
     justify-content: start;
-    align-items: flex-end;
     object-fit: cover;
-    width: 90%;
-    height: 20%;
     margin-bottom: 10%;
     margin-top: -17%;
 }
 
 img {
-    object-fit: cover;
+
     width: 61.71%; 
-    height: 106px;              /* Bozuyor   */
-    margin-left: -6%;
+    height: 106px;  
+    margin-left: -8%;
     margin-bottom: -2%;
 }
 .FaceText{
@@ -54,7 +53,7 @@ img {
     color: rgb(0, 0, 0);
     font-size: 175%;
     margin-top: -10%;
-    width: 100%;
+    max-width: 500px;
 }
 
 .LoginBox{
@@ -67,7 +66,7 @@ img {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     background-color: white;
     box-sizing: border-box;
-    border-radius: 5%;
+    border-radius: 2%;
     border-style: ridge;
     border: none;
     text-align: center;
@@ -75,7 +74,6 @@ img {
     padding: 17px 17px 0px 17px;
     
 }
-
 
 input{
     width: 330px;
@@ -157,10 +155,6 @@ input{
 
 }
 
-
-
-
-
 .LoginTextIc hr{
     border: 1px solid #dadde1;
 }
@@ -169,10 +163,7 @@ input:hover{
     border: 1px solid #1877f2;
 }
 
-
-
 .BotScreen{
-  
     width: 74%;
     height: 17%;
     color: #737373;
@@ -200,12 +191,14 @@ ul{
     padding-left: 0%;
     list-style-type: none;
     margin: 0%;
-    
+    font-size:12px;
     
 }
 ul li a{
     color: #8a8d91;
     text-decoration: none;
+    line-height: 1.6;   
+    font-size:12px;
     font-family: inherit;
     margin-right: 0;
     white-space: nowrap;
@@ -213,9 +206,8 @@ ul li a{
 
 ul li{
     
-    display: inline-block;
-    padding: 0.2% 0.6% 0.2%;
-    font-size: 78%;
+    display: inline-block;   
+    font-size:12px;
     text-align: -webkit-match-parent;
 }
 p span{
@@ -229,21 +221,105 @@ div .line{
     font-size: 1px;
     height: 8px;
     margin-bottom: 8px;
-   
     margin-right: auto;
     margin-left: auto;
 }
-.lang{
+ul.linklist li{
+    padding: 0px 0px 0px 20px;
+}
+ul.linklist{
+    margin-left: -20px;
+}
 
-    padding: 0.2% 0.3% 0.2%;
+ul.lang li{
+    padding-left:10px;
+}
+ul.lang{
+    margin-left: -10px;
+    padding-top: 20px;
+}
+
+@media(max-width:1075px) and (min-width: 901px){
+    .TopScreen{
+    box-sizing: border-box;
+    display:flex ;
+    justify-content: center;
+
+    }
+    .BotScreen{
+    width: 862px;
+    }
+    .FaceText{
+    display: inline-block;
+    width: 400px;
+    margin-top: -50px;
+    }
+    
+    .FaceText p{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
     margin: 0%;
+     width: 368px;
+    }
+    .logo+text{
+    margin: 0;
+    text-align: center;
+    }
+    .FaceLogo{
+    display: flex;
+    justify-content: start;
+    object-fit: cover;
+    width: 400px;
+    }
+    
+    img {
+    width: 320px;
+    padding: 10px;
+    }
+
 }
 
-/*
-#galery{
+@media(max-width:900px){
+
+    .TopScreen{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+    .logo+text{
+    margin: 0;
+    text-align: center;
+    width: 400px;
+    }
+    .FaceLogo{
     display: flex;
-      flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
+    object-fit: cover;
+    width: 320px;
+    margin-left: 50px;
+    }
+    img {
+    width: 320px;      
+    }
+
+    .FaceText{
+    display: inline-block;
+    width: 400px;
+    margin-top: -50px;
+    }
+    
+    .FaceText p{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    margin: 0%;
+    width: 400px;
+    }
+    .BotScreen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-*/
+    }
