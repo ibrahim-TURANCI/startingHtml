@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    /* border: 1px solid black;  */
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+.solpanel {
+    width: 240px;
+    height: 830px;
+    background-color: #f0f2f5;
+    margin-top: 50px;
+    padding: 18px 3px 5px 5px;
+    position: fixed;
+    float: left;
+    display: fixed;
+    justify-content: flex-start;
+    z-index: 0;
+}
+
+.oneri {
+    width: 240px;
+    height: 40px;
+}
+.önerilen {
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    margin-right: 15px;
+    font-weight: bold;
+
+}
+.önerilensekil {
+    background-color: #f0f2f5;
+    border: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: -195px;
+    display: none;
+}
+.daraltgenişlet {
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid #f0f2f5;
+    margin-top: -5px;
+}
+.logo {
+    width: 40px;
+    height: 40px;
+    clear: both;
+    float: left;
+}
+
+.logo img{
+
+    border-radius: 9000px !important;
+
+}
+.text {
+    width: 130px;
+    height: 40px;
+    float: left;
+}
+
+.t1 {
+    clear: both;
+    width: 135px;
+    height: 17px;
+    font-size: 14px;
+    color: #1f1f23;
+    font-family: Inter, Roobert, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+}
+
+.t2 {
+    clear: both;
+    width: 130px;
+    height: 16px;
+    font-size: 13px;
+    font-family: Inter, Roobert, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #53535f;
+}
+
+.abonelik {
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    float: left;
+}
+.reddot {
+    background-color: #eb0400;
+    border-radius: 9000px;
+    width: 8px;
+    height: 8px;
+    float: left;
+    margin-right: 8px;
+    margin-top: 4px;
+}
+.t3 {
+    width: 50px;
+    height: 40px;
+    font-family: Inter, Roobert, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #1f1f23;
+    font-size: 13px;
+
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    display:flex;
+    align-items:center;
+    width: 100%;
+    height: 61px;
+    position: fixed;
+    background-color: #451093;
+    border-radius: 5px;
+    bottom: 0;
+}
+img{
+    border: none;
+    max-width: 100%;
+    vertical-align: top;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p.text1 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.3rem !important;
+    float: left;
+    color: #fff;
+}
+img.cat{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    float: left;
+}
+
+.footerdiv{
+    display:flex; 
+    align-items:center; 
+    height: 40px;
+    margin-left: auto !important;
+    margin-right: 2rem !important
+}
+
+.footeric {
+    height: 40px;
+    width: 100%;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+}
+
+button.button-footer {
+    margin-left: auto !important;
+    margin-right: 2rem !important;
+}
