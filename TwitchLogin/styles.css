@@ -31,7 +31,10 @@ h2{
     font-weight: 600;
     line-height: 1.2;
 }
-
+.oneriyaz{
+    font-size: 13px;
+    color: #0e0e10;
+}
 .oneri {
     width: 240px;
     height: 16px;
@@ -506,16 +509,19 @@ a:hover {
 
 }
 
-p yazıalt1 {
+p.yazıalt1 {
     color: #53535f;
-    margin-left: 20px;
+    margin: 0px !important;
+    font-size: 13px;
+    font-family: Roobert,Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 
 .altalt1 {
     color: #53535f;
     text-decoration: none;
-
+    font-size: 13px;
+    font-family: Roobert,Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .altalt1:hover {
@@ -606,9 +612,7 @@ p yazıalt3 {
     background-color: #96969c;
 }
 
-.yazıdıv{
-    width:225px; height:23px; 
-}
+
 .yazıdivi{
 
     overflow:hidden;
@@ -664,18 +668,22 @@ yayınlar{
     padding: 20px 10px;
 }
 .yayın1 {
-    width: 23%;
+    width: 24.7%;
     float: left;
-
-    margin-right: 8px;
-    margin-top: 8px;
+    padding: 0px 5px;
     margin-bottom: 8px;
+}
+.yl{
+    display:inline-flex;
+    width: 40px;
+    height: 90px;
 }
 
 .yayın2 {
-    width: 23%;
+    width: 24.7%;
     float: left;
-    margin: 8px;
+   padding: 0px 5px;
+   margin-bottom: 8px;
 }
 
 
@@ -728,20 +736,30 @@ yayınlar{
 .tw-image {
     border: none;
     max-width: 100%;
+    min-width: 290px;
+    min-height: 163.5px;
     vertical-align: top;
     float: left;
 }
 
 .resim {
-    width: 40px;
+        
     float: left;
     margin-left: 8px;
     height: 40px;
 }
+.logo+yazı{
+    
+    width: 370px;
+    height: 90px;
+}
 
 .altyazısı {
+
     float: left;
     margin-left: 10px;
+    width: 320px;
+    height: 90px;
 
 
 }
