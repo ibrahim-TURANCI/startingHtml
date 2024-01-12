@@ -12,10 +12,11 @@ body{
     position: relative;
     width: 100%;
     margin: 0;
+    background-color: #f7f7f8;
 }
 .solpanel {
     width: 240px;
-    height: 830px;
+    height: 100%;
     background-color: #f0f2f5;
     margin-top: 50px;
     padding: 18px 3px 5px 5px;
@@ -351,7 +352,7 @@ height: 50px;
 .ortakutu {
 
     background-color: white;
-    height: 300px;
+    height: 340px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -402,8 +403,10 @@ height: 50px;
 }
 
 .yayın {
-    width: 80%;
-    height: 50px;
+    background-color: #e6e6ea;
+    box-shadow:0 6px 16px rgba(0,0,0,.16) ,0 0px 4px rgba(0,0,0,.05);
+    width: 750px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -415,8 +418,6 @@ height: 50px;
     background-color: white;
     margin-left: 30px;
     margin-bottom: 20px;
-    display: flex;
-    flex-wrap: wrap;
     overflow: hidden;
     align-items: center;
     gap: 10px;
@@ -656,23 +657,26 @@ p yazıalt4 {
     background-color: #96969c;
 }
 
-yayınlar{
+.yayınlar{
     background-color: white;
+    height: 280px;
     margin-left: 30px;
     margin-bottom: 20px;
-    display: flex;
     overflow: hidden;
     align-items: center;
     gap: 10px;
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 0;
+    
 }
 .yayın1 {
-    width: 24.7%;
+    position: relative;
+    width: 19.9%;
     float: left;
     padding: 0px 5px;
     margin-bottom: 8px;
 }
+
 .yl{
     display:inline-flex;
     width: 40px;
@@ -680,10 +684,11 @@ yayınlar{
 }
 
 .yayın2 {
-    width: 24.7%;
+    position: relative;
+    width: 19.9%;
     float: left;
-   padding: 0px 5px;
-   margin-bottom: 8px;
+    padding: 0px 5px;
+    margin-bottom: 8px;
 }
 
 
@@ -749,9 +754,9 @@ yayınlar{
     height: 40px;
 }
 .logo+yazı{
-    
-    width: 370px;
-    height: 90px;
+    /* (370*90) */
+    width: auto;
+    height: auto;
 }
 
 .altyazısı {
@@ -834,3 +839,214 @@ button.button-footer {
     margin-left: auto !important;
     margin-right: 2rem !important;
 }
+
+@media(min-width: 2073px){
+
+    .yayınlar{
+       width: 2000px;
+       height: 283px;
+    }   
+       .yayın1 {
+           width: 16.5%;
+           float: left;
+           margin: 0px;
+       }
+   
+       .yayın2 {
+           width: 16.5%;
+           float: left;
+           margin: 0px;
+       }
+   
+   }
+
+@media(max-width:2072px) and (min-width: 1773px){
+
+ .yayınlar{
+    width: auto;
+    height: auto/2;
+ }   
+    .yayın1 {
+        width: 20%;
+        float: left;
+        margin: 0px;
+    }
+
+    .yayın2 {
+        width: 20%;
+        float: left;
+        margin: 0px;
+    }
+
+}
+
+@media(max-width:1772px) and (min-width: 1201px){
+
+    .yayınlar{
+        width: auto;
+        height: auto/2;
+    }   
+       .yayın1 {
+           width: 24.7%;
+           float: left;
+           margin: 0px;
+       }
+   
+       .yayın2 {
+           width: 24.7%;
+           float: left;
+           margin: 0px;
+       }
+   
+   }
+
+   @media(max-width:1472px) and (min-width: 1201px){
+
+    .yayınlar{
+       width: auto;
+       height: auto/2;
+    }   
+       .yayın1 {
+           width: 32.8%;
+           float: left;
+           margin: 0px;
+       }
+   
+       .yayın2 {
+           width: 33.5%;
+           float: left;
+           margin: 0px;
+       }
+   
+   }
+   @media(max-width:1200px) and (min-width: 983px){
+
+    .yayınlar{
+       width: auto;
+       height: auto/2;
+    }   
+       .yayın1 {
+           width: 32.8%;
+           float: left;
+           margin: 0px;
+       }
+   
+       .yayın2 {
+           width: 33.5%;
+           float: left;
+           margin: 0px;
+       }
+       .solpanel {
+        width: 40px;
+    }
+    h2.oneriyaz {
+        display: none;
+    }
+    .oneri {
+        width: 30px;
+    }
+    .önerilen{
+        display: none;
+    }
+
+    .daraltgenişlet {
+        display: none;
+
+    }
+
+    .text {
+        display: none;
+    }
+
+    .t1 {
+        display: none;
+    }
+
+    .t2 {
+        display: none;
+    }
+
+    .abonelik {
+        display: none;
+    }
+
+    .reddot {
+        display: none;
+    }
+
+    .t3 {
+        display: none;
+
+    }
+    .ortapanel {
+        margin-left: 40px;
+        width: auto;
+    }
+   
+   }
+   @media(max-width:983px) and (min-width: 573px){
+
+    .yayınlar{
+       width: auto;
+       height: 295px;
+   
+    }   
+       .yayın1 {
+           width: 48.8%;
+           float: left;
+           margin: 0px;
+       }
+   
+       .yayın2 {
+           width: 48.8%;
+           float: left;
+           margin: 0px;
+       }
+   
+       .solpanel {
+        width: 40px;
+    }
+    h2.oneriyaz {
+        display: none;
+    }
+    .oneri {
+        width: 30px;
+    }
+    .önerilen{
+        display: none;
+    }
+
+    .daraltgenişlet {
+        display: none;
+
+    }
+
+    .text {
+        display: none;
+    }
+
+    .t1 {
+        display: none;
+    }
+
+    .t2 {
+        display: none;
+    }
+
+    .abonelik {
+        display: none;
+    }
+
+    .reddot {
+        display: none;
+    }
+
+    .t3 {
+        display: none;
+
+    }
+    .ortapanel {
+        margin-left: 40px;
+        width: auto;
+    }
+   }
