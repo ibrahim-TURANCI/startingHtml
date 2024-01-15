@@ -1,11 +1,11 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* border: 1px solid black;  */
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -14,6 +14,7 @@ body{
     margin: 0;
     background-color: #f7f7f8;
 }
+
 .solpanel {
     width: 240px;
     height: 100%;
@@ -26,24 +27,29 @@ body{
     justify-content: flex-start;
     z-index: 0;
 }
-h2{
-    font-family: "Roobert","Inter","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+h2 {
+    font-family: "Roobert", "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 1.2;
 }
-.basyazı{
+
+.basyazı {
     padding-left: 13px;
 }
-.oneriyaz{
+
+.oneriyaz {
     font-size: 13px;
     color: #0e0e10;
     padding-left: 7px;
 }
+
 .oneri {
     width: 240px;
     height: 16px;
 }
+
 .önerilen {
     width: 180px;
     height: 30px;
@@ -53,9 +59,10 @@ h2{
     font-family: "Inter", "Roobert", "Helvetica Neue", Helvetica, Arial, sans-serif;
     float: left;
     margin-right: 15px;
-    
+
 
 }
+
 .önerilensekil {
     background-color: #f0f2f5;
     border: 0;
@@ -64,6 +71,7 @@ h2{
     margin-left: -195px;
     display: none;
 }
+
 .daraltgenişlet {
     width: 30px;
     height: 30px;
@@ -71,6 +79,7 @@ h2{
     border: 1px solid #f0f2f5;
     margin-top: -5px;
 }
+
 .logo {
     width: 40px;
     height: 40px;
@@ -78,11 +87,12 @@ h2{
     float: left;
 }
 
-.logo img{
+.logo img {
 
     border-radius: 9000px !important;
 
 }
+
 .text {
     width: 130px;
     height: 40px;
@@ -116,6 +126,7 @@ h2{
     margin-left: 5px;
     float: left;
 }
+
 .reddot {
     background-color: #eb0400;
     border-radius: 9000px;
@@ -125,6 +136,7 @@ h2{
     margin-right: 8px;
     margin-top: 4px;
 }
+
 .t3 {
     width: 50px;
     height: 40px;
@@ -135,7 +147,7 @@ h2{
 }
 
 
-        /* >>>>>>   Üst Panel  <<<<<<< */
+/* >>>>>>   Üst Panel  <<<<<<< */
 
 .maintop {
 
@@ -148,11 +160,8 @@ h2{
     width: 100%;
     height: 50px;
     background-color: #fff;
-    box-shadow: 0 3px 5px 2px rgba(150, 150, 150, 0.5px);
     border: 1px solid #d2d2d2;
     position: fixed;
-    z-index: 1;
-
 }
 
 .headersol {
@@ -180,13 +189,13 @@ h2{
     line-height: 1.2;
     font-weight: 600;
     text-align: center;
-    font-family: Roobert,Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Roobert, Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
     cursor: pointer;
     border: 0;
-    display:flex; 
-    align-items:center; 
-width: 60px;
-height: 50px;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 50px;
 }
 
 
@@ -247,7 +256,7 @@ height: 50px;
     width: 30px;
     height: 30px;
     float: left;
- 
+
     margin-top: 11px;
     background-color: white;
     border: 1px solid #fff;
@@ -314,7 +323,7 @@ height: 50px;
 
 .headersag {
 
-   
+
     height: 50px;
     display: flex;
     align-items: right;
@@ -324,28 +333,29 @@ height: 50px;
 
 
 }
-.center { 
-  height: 200px;
-  position: relative;
-  border: 3px solid green; 
+
+.center {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
 }
 
 .center p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 
-        /* >>>>>>   Orta Panel  <<<<<<< */
+/* >>>>>>   Orta Panel  <<<<<<< */
 
 .ortapanel {
     width: calc(100% - 240px);
     height: calc(100% - 50px);
-    background-color: white;
+    background-color: #f7f7f8;
     float: left;
     margin-left: 240px;
     margin-top: 50px;
@@ -355,12 +365,13 @@ height: 50px;
 
 .ortakutu {
 
-    background-color: white;
-    height: 340px;   
+    background-color: #f7f7f8;
+    height: 340px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .button1 {
 
     width: 30px;
@@ -408,7 +419,7 @@ height: 50px;
 
 .yayın {
     background-color: #e6e6ea;
-    box-shadow:0 6px 16px rgba(0,0,0,.16) ,0 0px 4px rgba(0,0,0,.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, .16), 0 0px 4px rgba(0, 0, 0, .05);
     width: 750px;
     height: 300px;
     margin-left: 15%;
@@ -416,12 +427,12 @@ height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
- 
+
 
 }
 
 .orta {
-    background-color: white;
+    background-color: #f7f7f8;
     margin-left: 30px;
     margin-bottom: 20px;
     overflow: hidden;
@@ -450,6 +461,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 .üst1 {
     width: 100%;
     margin: 10px;
@@ -464,7 +476,7 @@ a:hover {
 
 .üst1:hover {
     box-shadow: -5px 5px 5px #5c16c5;
-    transform: translate(5px,-5px);
+    transform: translate(5px, -5px);
     transition: transform 0.3s;
 
 }
@@ -478,6 +490,7 @@ a:hover {
     position: relative;
     float: left;
 }
+
 /* .üst2:nth-child(1):hover .hover-border {
     transform: scaleX(1);
     background-color: purple;
@@ -498,8 +511,8 @@ a:hover {
     background-color: orange;
 } */
 .üst2:hover {
-    box-shadow: -5px 5px 5px #16c550;
-    transform: translate(5px,-5px);
+    box-shadow: -5px 5px 5px #00ADFF;
+    transform: translate(5px, -5px);
     transition: transform 0.3s;
 
 }
@@ -516,7 +529,7 @@ a:hover {
 
 .üst3:hover {
     box-shadow: -5px 5px 5px #9fc516;
-    transform: translate(5px,-5px);
+    transform: translate(5px, -5px);
     transition: transform 0.3s;
 
 }
@@ -533,7 +546,7 @@ a:hover {
 
 .üst4:hover {
     box-shadow: -5px 5px 5px #16c5a8;
-    transform: translate(5px,-5px);
+    transform: translate(5px, -5px);
     transition: transform 0.3s;
 
 }
@@ -542,7 +555,16 @@ p.yazıalt1 {
     color: #53535f;
     margin: 0px !important;
     font-size: 13px;
-    font-family: Roobert,Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Roobert, Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.category {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 0px 8px;
+    color: #53535f;
 }
 
 
@@ -550,7 +572,7 @@ p.yazıalt1 {
     color: #53535f;
     text-decoration: none;
     font-size: 13px;
-    font-family: Roobert,Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Roobert, Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .altalt1:hover {
@@ -560,13 +582,15 @@ p.yazıalt1 {
 }
 
 .yazıbutton1 {
-    border-radius: 5px;
-    color: #000;
-    border: 0;
-    width: 45px;
-    height: 15px;
-    background-color: #e2e2ee;
-
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #53535f;
+    border: 2px solid transparent;
+    width: auto;
+    height: 2rem;
+    max-width: 100%;
+    background-color: hsla(240, 7%, 70%, .22);
 
 }
 
@@ -642,12 +666,12 @@ p yazıalt3 {
 }
 
 
-.yazıdivi{
+.yazıdivi {
 
-    overflow:hidden;
-white-space:nowrap;
-text-overflow:ellipsis;
-color:#000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #000;
 
 }
 
@@ -685,52 +709,53 @@ p yazıalt4 {
     background-color: #96969c;
 }
 
-.yayınlar{
-    background-color: white;
+.yayınlar {
+    background-color: #f7f7f8;
     height: 280px;
     margin-left: 30px;
     margin-bottom: 20px;
-   
+
     align-items: center;
     gap: 10px;
     margin: 0 auto;
     padding: 0;
-    
+
 }
+
 .yayın1 {
     position: relative;
     width: 19.9%;
     float: left;
-    padding: 0px 5px;
+    padding-left: 5px;
     margin-bottom: 8px;
 }
 
-.yl{
-    display:inline-flex;
+.yl {
+    display: inline-flex;
     width: 40px;
     height: 90px;
 }
 
 .yayın2 {
     position: relative;
-    width: 19.9%;
+    width: 50%;
     float: left;
-    padding: 0px 5px;
+    padding: 0px auto;
+    padding-right: 5px;
     margin-bottom: 8px;
 }
-
 
 
 .kutu {
     display: flex;
     align-items: center;
     position: relative;
-    width:100%;
+    width: 100%;
 
 }
 
 .kutu1 {
-    display:inline-flex;
+    display: inline-flex;
     height: 0.5px;
     width: 45.5%;
     background-color: #d2d2d2;
@@ -739,13 +764,11 @@ p yazıalt4 {
 }
 
 .kutu2 {
-   
     float: left;
     color: #5c16c5;
     border: 0;
-    background-color: #fff;
+    background-color: #f7f7f8;
     fill: #5c16c5;
-   
     display: flex;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -762,7 +785,6 @@ p yazıalt4 {
 
 .kutu2 svg {
     float: left;
-    margin: ;
 
 }
 
@@ -775,19 +797,18 @@ p yazıalt4 {
 .tw-image {
     border: none;
     max-width: 100%;
-    min-width: 290px;
-    min-height: 163.5px;
     vertical-align: top;
     float: left;
 }
 
 .resim {
-        
+
     float: left;
     margin-left: 8px;
     height: 40px;
 }
-.logo+yazı{
+
+.logo+yazı {
     /* (370*90) */
     position: absolute;
     width: auto;
@@ -817,9 +838,9 @@ p yazıalt4 {
 
 }
 
-footer{
-    display:flex;
-    align-items:center;
+footer {
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 61px;
     position: fixed;
@@ -827,11 +848,13 @@ footer{
     border-radius: 5px;
     bottom: 0;
 }
-img{
+
+img {
     border: none;
     max-width: 100%;
     vertical-align: top;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -839,6 +862,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 p.text1 {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -847,16 +871,17 @@ p.text1 {
     float: left;
     color: #fff;
 }
-img.cat{
+
+img.cat {
     width: 40px;
     height: 40px;
     margin-left: 20px;
     float: left;
 }
 
-.footerdiv{
-    display:flex; 
-    align-items:center; 
+.footerdiv {
+    display: flex;
+    align-items: center;
     height: 40px;
     margin-left: auto !important;
     margin-right: 2rem !important;
@@ -875,55 +900,60 @@ button.button-footer {
     margin-right: 2rem !important;
 }
 
-@media(min-width: 2279px){
+@media(min-width: 2279px) {
 
-    .yayınlar{
-       width: 2000px;
-       height: auto;
-    }   
-       .yayın1 {
-           width: 16.5%;
-           float: left;
-           margin: 0px;
-       }
-   
-       .yayın2 {
-           width: 16.5%;
-           float: left;
-           margin: 0px;
-       }
-   
-   }
-@media(max-width: 2278px){
+    .yayınlar {
+        width: 2000px;
+        height: auto;
+    }
 
-    
-    .yayınlar{
-       width: 2000px;
-       height: auto;
-    }   
-       .yayın1 {
-           width: 15.1%;
-           float: left;
-           margin: 0px;
-       }
-   
-       .yayın2 {
-           width: 16.5%;
-           float: left;
-           margin: 0px;
-       }
-   
-   }
+    .yayın1 {
+        width: 16.5%;
+        float: left;
+        margin: 0px;
+    }
 
-@media(max-width:2072px){
+    .yayın2 {
+        width: 50%;
+        float: left;
+        margin: 0px;
+    }
 
- .yayınlar{
-    width: auto;
-    height: auto;
 }
-.yayın1:nth-last-child(2) {
-    display: none;
+
+@media(max-width: 2278px) {
+
+
+    .yayınlar {
+        width: 2000px;
+        height: auto;
+    }
+
+    .yayın1 {
+        width: 15.1%;
+        float: left;
+        margin: 0px;
+    }
+
+    .yayın2 {
+        width: 50%;
+        float: left;
+        margin: 0px;
+    }
+
 }
+
+@media(max-width:2072px) {
+
+    .yayınlar {
+        width: auto;
+        height: auto;
+    }
+
+    .yayın1:nth-last-child(2) {
+        display: none;
+    }
+
     .yayın1 {
         width: 19.8%;
         float: left;
@@ -931,7 +961,7 @@ button.button-footer {
     }
 
     .yayın2 {
-        width: 20%;
+        width: 50%;
         float: left;
         margin: 0px;
     }
@@ -939,72 +969,77 @@ button.button-footer {
 
 }
 
-@media(max-width:1772px){
-   
+@media(max-width:1772px) {
+
     .yayın1:nth-last-child(3) {
         display: none;
- }
+    }
 
-       .yayın1 {
-           width: 24.7%;
-           float: left;
-           margin: 0px;
-       }
-   
-       .yayın2 {
-           width: 24.7%;
-           float: left;
-           margin: 0px;
-       }
-   
-   }
+    .yayın1 {
+        width: 24.7%;
+        float: left;
+        margin: 0px;
+    }
 
-   @media(max-width:1472px){
+    .yayın2 {
+        width: 50%;
+        float: left;
+        margin: 0px;
+    }
+}
+
+@media(max-width:1472px) {
 
     .yayın1:nth-last-child(4) {
         display: none;
- }
-       .yayın1 {
-           width: 32.9%;
-           float: left;
-           margin: 0px;
-       }
-   
-       .yayın2 {
-           width: 33.5%;
-           float: left;
-           margin: 0px;
-       }
-   
-   }
-   @media(max-width:1200px){
+    }
+
+    .yayın1 {
+        width: 32.9%;
+        float: left;
+        margin: 0px;
+    }
+
+    .yayın2 {
+        width: 50%;
+        float: left;
+        margin: 0px;
+    }
+
+}
+
+@media(max-width:1200px) {
 
     .aramacubugu {
         margin: 8px 15% 0%;
-    
+
     }
-       .yayın1 {
-           width: 32.6%;
-           float: left;
-           margin: 0px;
-       }
-   
-       .yayın2 {
-           width: 33.5%;
-           float: left;
-           margin: 0px;
-       }
-       
-       .solpanel {
+
+    .yayın1 {
+        width: 32.6%;
+        float: left;
+        margin: 0px;
+    }
+
+    .yayın2 {
+        width: 50%;
+        float: left;
+        margin: 0px;
+    }
+
+    .solpanel {
         width: 40px;
     }
+
     h2.oneriyaz {
         display: none;
     }
+
     .oneri {
         width: 30px;
     }
-    .önerilen{
+
+    .önerilen {
         display: none;
     }
 
@@ -1037,59 +1072,65 @@ button.button-footer {
         display: none;
 
     }
+
     .ortapanel {
         margin-left: 40px;
         width: auto;
     }
-   
-   }
+}
 
-   @media(max-width:982px){
+@media(max-width:982px) {
     .yayın1:nth-last-child(5) {
         display: none;
- }
- .aramacubugu {
-    display: flex;
-    justify-content: flex-end;
-    width: auto;
-    height: 34px;
-    margin-top: 6px;
-    background-color: #fff;
-    border-radius: 5px;
-    float: left;
-    margin: 8px 10% 0%;
+    }
 
-}
-.headerorta {
-    justify-content: flex-end;
-}
-.kutu1 {
-    width: 40%;
-}
- 
-       .yayın1 {
-           width: 48.8%;
-           float: left;
-           margin: 0px;
-       }
-   
-       .yayın2 {
-           width: 48.8%;
-           float: left;
-           margin: 0px;
-       }
-   }
+    .aramacubugu {
+        display: flex;
+        justify-content: flex-end;
+        width: auto;
+        height: 34px;
+        margin-top: 6px;
+        background-color: #fff;
+        border-radius: 5px;
+        float: left;
+        margin: 8px 10% 0%;
 
-   @media(max-width:760px){
+    }
+
+    .headerorta {
+        justify-content: flex-end;
+    }
+
+    .kutu1 {
+        width: 40%;
+    }
+
+    .yayın1 {
+        width: 48.8%;
+        float: left;
+        margin: 0px;
+    }
+
+    .yayın2 {
+        width: 50%;
+        float: left;
+        margin: 0px;
+
+    }
+}
+
+@media(max-width:760px) {
 
     .aramacubugutext {
         display: none;
     }
+
     .kutu1 {
         width: 35%;
     }
-    .yazıdıv{
-        width:150px; height:23px; 
-    }
 
-   }
+    .yazıdıv {
+        width: 150px;
+        height: 23px;
+    }
+}
