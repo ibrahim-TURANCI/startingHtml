@@ -1083,7 +1083,11 @@ button.button-footer {
     .yayın1:nth-last-child(5) {
         display: none;
     }
-
+    .ortapanel {
+        width: calc(100% - 40px);
+        margin-left: 40px;
+        min-width: 400px;
+    }
     .aramacubugu {
         display: flex;
         justify-content: flex-end;
@@ -1121,6 +1125,7 @@ button.button-footer {
 
 @media(max-width:760px) {
 
+    
     .aramacubugutext {
         display: none;
     }
