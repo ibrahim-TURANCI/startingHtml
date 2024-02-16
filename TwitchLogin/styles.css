@@ -475,7 +475,7 @@ a:hover {
 }
 
 .üst1:hover {
-    box-shadow: -5px 5px 5px #5c16c5;
+    box-shadow: rgba(92, 22, 197, 1) -5px 5px,rgba(92, 22, 197, 1) -4px 4px,rgba(92, 22, 197, 1) -3px 3px,rgba(92, 22, 197, 1) -2px 2px,rgba(92, 22, 197, 1) -1px 1px;;
     transform: translate(5px, -5px);
     transition: transform 0.3s;
 
@@ -511,7 +511,7 @@ a:hover {
     background-color: orange;
 } */
 .üst2:hover {
-    box-shadow: -5px 5px 5px #00ADFF;
+    box-shadow: rgba(0, 173, 255, 1) -5px 5px,rgba(0, 173, 255, 1) -4px 4px,rgba(0, 173, 255, 1) -3px 3px,rgba(0, 173, 255, 1) -2px 2px,rgba(0, 173, 255, 1) -1px 1px;;
     transform: translate(5px, -5px);
     transition: transform 0.3s;
 
